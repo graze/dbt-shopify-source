@@ -1703,4 +1703,5 @@ models:
     description: discount_allocation
     columns:
       - name: order_line_id
+      - name: source_relation
       - name: amount

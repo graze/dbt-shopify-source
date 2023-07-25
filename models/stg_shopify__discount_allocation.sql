@@ -29,6 +29,7 @@ final as (
     
     select 
         order_line_id,
+        source_relation,
         amount
     from fields
 
