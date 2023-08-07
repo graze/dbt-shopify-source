@@ -1705,3 +1705,12 @@ models:
       - name: order_line_id
       - name: source_relation
       - name: amount
+
+  - name: stg_shopify__discount_application
+    description: discount_application
+    columns:
+      - name: order_id
+      - name: source_relation
+      - name: value
+      - name: value_type,
+      - name: target_type
