@@ -13,7 +13,7 @@
     {"name": "pre_tax_price", "datatype": dbt.type_float()},
     {"name": "pre_tax_price_set", "datatype": dbt.type_string()},
     {"name": "price", "datatype": dbt.type_float()},
-    {"name": "price_set", "datatype": dbt.type_string()},
+    {"name": "price_set", "datatype": "json"},
     {"name": "product_id", "datatype": dbt.type_numeric()},
     {"name": "quantity", "datatype": dbt.type_numeric()},
     {"name": "requires_shipping", "datatype": "boolean"},
