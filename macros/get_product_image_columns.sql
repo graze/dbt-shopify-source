@@ -10,7 +10,7 @@
     {"name": "product_id", "datatype": dbt.type_int()},
     {"name": "src", "datatype": dbt.type_string()},
     {"name": "updated_at", "datatype": dbt.type_timestamp()},
-    {"name": "variant_ids", "datatype": dbt.type_string()},
+    {"name": "variant_ids", "datatype": "json"},
     {"name": "width", "datatype": dbt.type_int()}
 ] %}
 

@@ -12,8 +12,8 @@
     {"name": "status", "datatype": dbt.type_string()},
     {"name": "tracking_company", "datatype": dbt.type_string()},
     {"name": "tracking_number", "datatype": dbt.type_string()},
-    {"name": "tracking_numbers", "datatype": dbt.type_string()},
-    {"name": "tracking_urls", "datatype": dbt.type_string()},
+    {"name": "tracking_numbers", "datatype": "json"},
+    {"name": "tracking_urls", "datatype": "json"},
     {"name": "updated_at", "datatype": dbt.type_timestamp()}
 ] %}
 
