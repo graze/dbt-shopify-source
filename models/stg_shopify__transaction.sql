@@ -63,7 +63,6 @@ final as (
         {{ fivetran_utils.fill_pass_through_columns('transaction_pass_through_columns') }}
 
     from fields
-    where not coalesce(test, false)
 )
 
 select * 
