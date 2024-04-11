@@ -8,7 +8,7 @@
     {"name": "order_id", "datatype": dbt.type_numeric()},
     {"name": "processed_at", "datatype": dbt.type_timestamp()},
     {"name": "restock", "datatype": "boolean"},
-    {"name": "total_duties_set", "datatype": "json"},
+    {"name": "total_duties_set", "datatype": dbt.type_string()},
     {"name": "user_id", "datatype": dbt.type_numeric()}
 ] %}
 

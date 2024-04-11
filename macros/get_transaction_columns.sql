@@ -20,7 +20,7 @@
     {"name": "payment_credit_card_number", "datatype": dbt.type_string()},
     {"name": "payment_credit_card_company", "datatype": dbt.type_string()},
     {"name": "kind", "datatype": dbt.type_string()},
-    {"name": "receipt", "datatype": "json"},
+    {"name": "receipt", "datatype": dbt.type_string()},
     {"name": "currency_exchange_id", "datatype": dbt.type_numeric()},
     {"name": "currency_exchange_adjustment", "datatype": dbt.type_numeric()},
     {"name": "currency_exchange_original_amount", "datatype": dbt.type_numeric()},

@@ -11,7 +11,7 @@
     {"name": "name", "datatype": dbt.type_string()},
     {"name": "order_id", "datatype": dbt.type_numeric()},
     {"name": "pre_tax_price", "datatype": dbt.type_float()},
-    {"name": "pre_tax_price_set", "datatype": "json"},
+    {"name": "pre_tax_price_set", "datatype": dbt.type_string()},
     {"name": "price", "datatype": dbt.type_float()},
     {"name": "price_set", "datatype": "json"},
     {"name": "product_id", "datatype": dbt.type_numeric()},
@@ -22,12 +22,12 @@
     {"name": "tax_code", "datatype": dbt.type_string()},
     {"name": "title", "datatype": dbt.type_string()},
     {"name": "total_discount", "datatype": dbt.type_float()},
-    {"name": "total_discount_set", "datatype": "json"},
+    {"name": "total_discount_set", "datatype": dbt.type_string()},
     {"name": "variant_id", "datatype": dbt.type_numeric()},
     {"name": "variant_title", "datatype": dbt.type_string()},
     {"name": "variant_inventory_management", "datatype": dbt.type_string()},
     {"name": "vendor", "datatype": dbt.type_string()},
-    {"name": "properties", "datatype": "json"}
+    {"name": "properties", "datatype": dbt.type_string()}
 ] %}
 
 {{ fivetran_utils.add_pass_through_columns(columns, var('order_line_pass_through_columns')) }}
