@@ -38,7 +38,6 @@ final as (
         source_relation
 
     from fields
-    where not coalesce(test, false)
 )
 
 select *
